@@ -9,7 +9,7 @@ endYear="June 2021"
 projectDescription="Simplified Grocery Shopping Anytime, Anywhere"
 categories = ["management", "UX/UI", "research"]
 mainImg = "/images/banners/aidl.png"
-link = "www.figma.com/proto/nOqnKWXZOVARAQpOZ204og/Aidl--Application?node-id=156%3A2427&starting-point-node-id=156%3A2427"
+link = "https://www.figma.com/proto/nOqnKWXZOVARAQpOZ204og/Aidl--Application?node-id=156-2427&starting-point-node-id=156%3A2427"
 linkName = "View Prototype"
 summary = "As UX team manager, led a 4-person team to create a user-friendly grocery store app. Managed design sprints, aligned design with store goals, and achieved an efficient, successful outcome."
 +++

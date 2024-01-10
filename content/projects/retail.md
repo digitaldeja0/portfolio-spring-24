@@ -9,7 +9,7 @@ endYear="Novemeber2022"
 projectDescription="Enhancing Online Retail: Seamless Desktop to Mobile Shopping"
 categories = ["management", "UX/UI", "research"]
 mainImg = "/images/banners/retail.png"
-link = "docs.google.com/presentation/d/1uMiDWF-ZWmrO5KGwBREJ4NAbFBgM2UO8JoQneamlTP4/edit#slide=id.p"
+link = "https://docs.google.com/presentation/d/1uMiDWF-ZWmrO5KGwBREJ4NAbFBgM2UO8JoQneamlTP4/edit#slide=id.p"
 linkName = "View Slideshow"
 summary = "I enhanced user purchase experience through research, creating a streamlined process addressing root issues. The result: an efficient, user-friendly system aligning with business goals, contributing to overall success."
 +++
