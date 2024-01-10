@@ -9,4 +9,7 @@ endYear=""
 projectDescription=""
 categories = []
 mainImg = ""
+link = ""
+linkName = ""
+summary = ""
 +++
