@@ -1,7 +1,7 @@
 +++
 title = "Fusion"
 date = 2024-01-07T08:34:14-05:00
-draft = true
+draft = false
 projectName = "Fusion"
 projectYear = "2015"
 startYear="September 2015"

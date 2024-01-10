@@ -1,7 +1,7 @@
 +++
 title = "Game Development"
 date = 2024-01-07T08:34:14-05:00
-draft = true
+draft = false
 projectName = "Rootbeer Riot"
 projectYear = "2023"
 startYear="January 2023"

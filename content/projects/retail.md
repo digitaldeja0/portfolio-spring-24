@@ -1,7 +1,7 @@
 +++
 title = "Retail Design"
 date = 2024-01-07T08:34:14-05:00
-draft = true
+draft = false
 projectName = "Retail Experience"
 projectYear = "2022"
 startYear="October 2022"

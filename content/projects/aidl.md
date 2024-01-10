@@ -1,7 +1,7 @@
 +++
 title = "Aidl"
 date = 2024-01-07T08:34:14-05:00
-draft = true
+draft = false
 projectName = "Aidl Application"
 projectYear = "2021"
 startYear="May 2021"
