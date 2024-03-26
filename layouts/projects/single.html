@@ -110,12 +110,12 @@
             </div>
           </div>
 
-          <div class="d-flex justify-content-evenly align-items-center mt-4">
+          <div class="d-flex justify-content-evenly align-items-center mt-4 flex-column flex-md-row ">
             {{ with .NextInSection }}
-            <a href="{{ .RelPermalink }}" class="btn btn-primary btn-block btn-md">Previous: {{ .Title }}</a>
+            <a href="{{ .RelPermalink }}" class="btn btn-primary btn-block btn-sm mx-2 my-2">Previous: {{ .Title }}</a>
             {{ end }}
             {{ with .PrevInSection }}
-                <a href="{{ .RelPermalink }}" class="btn btn-primary btn-block btn-md">Next: {{ .Title }}</a>
+                <a href="{{ .RelPermalink }}" class="btn btn-primary btn-block btn-sm mx-2 my-2">Next: {{ .Title }}</a>
             {{ end }}
         </div>
 
