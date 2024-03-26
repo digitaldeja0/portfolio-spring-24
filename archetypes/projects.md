@@ -12,4 +12,8 @@ mainImg = ""
 link = ""
 linkName = ""
 summary = ""
+myRole = ""
+myChallenges =""
+mySolutions=""
+nextStep=""
 +++

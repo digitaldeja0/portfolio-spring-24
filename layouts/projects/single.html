@@ -56,6 +56,73 @@
         </div>
     </div>
 
+    {{/*  About Information Start  */}}
+
+    <div class="mypath mx-auto mb-4">
+        <div class="lc-block">
+            <div editable="rich">
+
+                <h2>My Role</h2>
+
+                <p>{{.Params.myRole}}</p>
+            </div>
+        </div>
+        <div class="lc-block">
+            <div editable="rich">
+
+                <h2>Challenges</h2>
+
+                <p>{{.Params.myChallenges}}</p>
+            </div>
+        </div>
+        <div class="lc-block">
+            <div editable="rich">
+
+                <h2>Solutions</h2>
+
+                <p>{{.Params.mySolutions}}</p>
+            </div>
+        </div>
+        <div class="lc-block">
+            <div editable="rich">
+
+                <h2>Next Steps</h2>
+
+                <p>{{.Params.nextStep}}</p>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    {{/*  About Information End  */}}
+
+    <div class="mb-4">
+        {{.Content}}
+    </div>
+
+        <div class="row mb-4">
+          <div class="lc-block text-center">
+            <div editable="rich">
+              <h2 class="fw-bold display-4">Other Projects</h2>
+            </div>
+          </div>
+
+          <div class="d-flex justify-content-evenly align-items-center mt-4">
+            {{ with .NextInSection }}
+            <a href="{{ .RelPermalink }}" class="btn btn-primary btn-block btn-md">Previous: {{ .Title }}</a>
+            {{ end }}
+            {{ with .PrevInSection }}
+                <a href="{{ .RelPermalink }}" class="btn btn-primary btn-block btn-md">Next: {{ .Title }}</a>
+            {{ end }}
+        </div>
+
+
+          </div>
+ 
     
-</div>
+
+
 {{ end }}

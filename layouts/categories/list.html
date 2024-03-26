@@ -32,13 +32,13 @@
       {{range .Data.Pages}}
         <div class="col-md-6 col-lg-4  my-4  ">
           <div class="card-body">
-            <a href={{ .Permalink}} class=" ">
-              <img class="card-img-top" src= {{ .Params.mainImg}}  alt="Image" loading="lazy">
+            <a href={{ .Permalink }} class="">
+              <img class="card-img-top shrink-image" src= {{ .Params.mainImg}}  alt="Image" loading="lazy">
              </a>
              <h5 class="mt-1">{{.Params.projectName}}</h5>
              <div class="d-flex justify-content-start align-items-center">
               {{ range .GetTerms "categories"}}
-                <a href={{ .Permalink}} class="badgeA"><span class="badge text-bg-primary rounded-pill mx-1 px-2 py-1 ">{{ .Name}}</span></a>
+                <a href={{ .Permalink}} class="badgeA shrink-image"><span class="badge text-bg-primary rounded-pill mx-1 px-3 py-2 ">{{ .Name}}</span></a>
                 {{ end}}
             </div>
           </div>

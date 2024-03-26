@@ -1,17 +1,19 @@
 {{ define "main" }}
 <div class="container py-2">
-  <div class="row mb-4">
-      <div class="lc-block text-center">
-          <div editable="rich">
-              <h2 class="fw-bold display-2">Design & Development</h2>
-          </div>
+  <div class="row ">
+      <div>
+        <p class="m-0" id="heroP">Hey, I'm Deja 👋</p>
+        <h1 id="heroH1">
+          I <span id="heroSpan1">design </span>  and  <span id="heroSpan2">develop </span> engaging, <span id="heroSpan3">beautiful </span>  products.
+        </h1> 
       </div>
-      <div class="lc-block text-center">
-          <div editable="rich">
-              <p class="lead">Hey, I am Deja! A UX designer and frontend developer. Check out my work below.<br></p>
-          </div>
-      </div>
+    </div>
   </div>
+  <hr>
+  
+<div class="d-flex justify-content-start align-items-start mt-4">
+    <h3 class="font-weight-bold">Projects</h3>
+</div>
 {{/*  Block Start  */}}
 <div class="row">
   <div class="row ">
@@ -20,12 +22,12 @@
       <div class="col-md-6 col-lg-4  my-4  ">
         <div class="card-body">
           <a href={{ .Permalink}} class=" ">
-            <img class="card-img-top" src= {{ .Params.mainImg}}  alt="Image" loading="lazy">
+            <img class="card-img-top shrink-image" src= {{ .Params.mainImg}}  alt="Image" loading="lazy">
            </a>
            <h5 class="mt-1">{{.Params.projectName}}</h5>
            <div class="d-flex justify-content-start align-items-center">
             {{ range .GetTerms "categories"}}
-              <a href={{ .Permalink}} class="badgeA"><span class="badge text-bg-primary rounded-pill mx-1 px-2 py-1 ">{{ .Name}}</span></a>
+              <a href={{ .Permalink}} class="badgeA shrink-image"><span class="badge text-bg-primary rounded-pill mx-1 px-3 py-2 ">{{ .Name}}</span></a>
               {{ end}}
           </div>
         </div>
@@ -35,6 +37,8 @@
   </div>
 </div>
 {{/*  Block End*/}}
+
+{{ partial "carousel.html" }}
 
 </div>
 {{ end }}

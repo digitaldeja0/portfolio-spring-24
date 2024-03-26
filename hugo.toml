@@ -9,3 +9,6 @@ title = 'Deja Cherese'
     tag = "tags"
     includes = "includes"
 
+[markup.goldmark.renderer]
+  unsafe = true
+
