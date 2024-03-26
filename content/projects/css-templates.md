@@ -31,7 +31,8 @@ nextStep="Revisit to update and add accessibility standards and modern css pract
       </div>
     </div>
   </div> 
-    <a href="https://merlindascloset.netlify.app/" class="mb-4 d-block shrink-image">
+    <a href="https://merlindascloset.netlify.app/" class="mb-4 d-block shrink-image" target="_blank" rel="noopener noreferrer"
+>
       <div class="lc-block">
         <img
           class="img-fluid"
@@ -39,13 +40,14 @@ nextStep="Revisit to update and add accessibility standards and modern css pract
           sizes="(max-width: 1080px) 100vw, 1080px"
           width="1080"
           height="768"
-          alt="Photo by Lubomirkin"
+          alt="Project Supportive Image"
           loading="lazy"
         />
       </div>
       <!-- /lc-block -->
     </a>
-    <a href="https://scrunchicecream.netlify.app/" class="my-4 d-block shrink-image">
+    <a href="https://scrunchicecream.netlify.app/" class="my-4 d-block shrink-image" target="_blank" rel="noopener noreferrer"
+>
       <div class="lc-block">
         <img
           class="img-fluid"
@@ -53,7 +55,7 @@ nextStep="Revisit to update and add accessibility standards and modern css pract
           sizes="(max-width: 1080px) 100vw, 1080px"
           width="1080"
           height="768"
-          alt="Photo by Lubomirkin"
+          alt="Project Supportive Image"
           loading="lazy"
         />
       </div>

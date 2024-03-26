@@ -1,44 +1,74 @@
 {{ define "main" }}
 <div class="container py-2">
   <div class="row ">
-      <div>
-        <p class="m-0" id="heroP">Hey, I'm Deja 👋</p>
-        <h1 id="heroH1">
-          I <span id="heroSpan1">design </span>  and  <span id="heroSpan2">develop </span> engaging, <span id="heroSpan3">beautiful </span>  products.
-        </h1> 
-      </div>
+    <div>
+      <p class="m-0" id="heroP">Hey, I'm Deja 👋</p>
+      <h1 id="heroH1">
+        I <span id="heroSpan1">design </span> and <span id="heroSpan2">develop </span> engaging, <span
+          id="heroSpan3">beautiful </span> products.
+      </h1>
     </div>
   </div>
-  <hr>
-  
-<div class="d-flex justify-content-start align-items-start mt-4">
-    <h3 class="font-weight-bold">Projects</h3>
 </div>
-{{/*  Block Start  */}}
+<hr>
+
+<div class="d-flex justify-content-start align-items-start mt-4">
+  <h3 class="font-weight-bold">Projects</h3>
+</div>
+{{/* Block Start */}}
 <div class="row">
   <div class="row ">
     {{range .Data.Pages}}
-      {{range .Data.Pages}}
-      <div class="col-md-6 col-lg-4  my-4  ">
-        <div class="card-body">
-          <a href={{ .Permalink}} class=" ">
-            <img class="card-img-top shrink-image" src= {{ .Params.mainImg}}  alt="Image" loading="lazy">
-           </a>
-           <h5 class="mt-1">{{.Params.projectName}}</h5>
-           <div class="d-flex justify-content-start align-items-center">
-            {{ range .GetTerms "categories"}}
-              <a href={{ .Permalink}} class="badgeA shrink-image"><span class="badge text-bg-primary rounded-pill mx-1 px-3 py-2 ">{{ .Name}}</span></a>
-              {{ end}}
-          </div>
+    {{range .Data.Pages}}
+    <div class="col-md-6 col-lg-4  my-4  ">
+      <div class="card-body">
+        <a href={{ .Permalink}} class=" ">
+          <img class="card-img-top shrink-image" src={{ .Params.mainImg}} alt="Project Banner" loading="lazy">
+        </a>
+        <h5 class="mt-1">{{.Params.projectName}}</h5>
+        <div class="d-flex justify-content-start align-items-center">
+          {{ range .GetTerms "categories"}}
+          <a href={{ .Permalink}} class="badgeA shrink-image"><span
+              class="badge text-bg-primary rounded-pill mx-1 px-3 py-2 ">{{ .Name}}</span></a>
+          {{ end}}
         </div>
       </div>
+    </div>
     {{end }}
     {{end }}
   </div>
 </div>
-{{/*  Block End*/}}
+{{/* Block End*/}}
 
 {{ partial "carousel.html" }}
+
+<hr>
+
+<div class=" container py-5  mt-4">
+  <h3 class="font-weight-bold">About Me</h3>
+  <div editable="rich">
+    <p>
+      Thanks for checking out my portfolio. I am a wife, mom, and career transitioner. I make a living as a website
+      developer and application designer. My technical speciality is in the realm of UI design and engineering. I love
+      making then taking an idea from Figma to the digital screen with HTML, CSS, and Javascript. I have fun creating
+      youtube videos for my <a href="https://www.youtube.com/@dancedeja" target="_blank" rel="noopener noreferrer">dance</a> and <a href="https://www.youtube.com/@lowpolyprincess" target="_blank" rel="noopener noreferrer">coding </a>channels respectively, as well as participating in game jams and meetups.
+    </p>
+    <p>
+      Yes, I am one of those unicorns who can Code and Design. All of the projects in this portfolio are original
+      designs and coding endeavors. Don't be fooled, I have years of experience working on small and medium sized teams.
+      Teamwork makes the dream work.
+    </p>
+    <p>
+
+      I graduated from art school (where I learned web development) and went on to teach movement and wellness classes
+      in New York and New Jersey. In 2019 I decided to settle down in Georgia and get serious about freelancing as a
+      generalist designer, developer, and writer. I realized my passion was working with startups and small businesses
+      as a team member that would wear many hats while helping the brand polish and refine their voice through behind
+      the scenes work and direct interactions with customers and clients.
+    </p>
+
+  </div>
+</div>
 
 </div>
 {{ end }}

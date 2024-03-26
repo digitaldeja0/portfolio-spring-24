@@ -53,7 +53,8 @@ nextStep="I am looking to create a website that captures the memories from the 3
       </div>
     </div>
   </div> 
-    <a href="https://www.ubspectrum.com/article/2015/10/student-collaboration-at-ub-discovers-buffalo-through-art?" class="mb-4 d-block shrink-image">
+    <a href="https://www.ubspectrum.com/article/2015/10/student-collaboration-at-ub-discovers-buffalo-through-art?" class="mb-4 d-block shrink-image" target="_blank" rel="noopener noreferrer"
+>
       <div class="lc-block">
         <img
           class="img-fluid"
@@ -61,7 +62,7 @@ nextStep="I am looking to create a website that captures the memories from the 3
           sizes="(max-width: 1080px) 100vw, 1080px"
           width="1080"
           height="768"
-          alt="Photo by Lubomirkin"
+          alt="Project Supportive Image"
           loading="lazy"
         />
       </div>

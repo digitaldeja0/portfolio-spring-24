@@ -58,7 +58,7 @@ nextStep="I hope to step back from freelancing to take a more permanent role and
         sizes="(max-width: 1080px) 100vw, 1080px"
         width="1080"
         height="768"
-        alt="Photo by Bekky Bekks"
+        alt="Project Supportive Image"
         loading="lazy"
       />
     </div>
@@ -69,7 +69,7 @@ nextStep="I hope to step back from freelancing to take a more permanent role and
         sizes="(max-width: 1080px) 100vw, 1080px"
         width="1080"
         height="768"
-        alt="Photo by Markus Spiske"
+        alt="Project Supportive Image"
         loading="lazy"
       />
     </div>
@@ -80,7 +80,7 @@ nextStep="I hope to step back from freelancing to take a more permanent role and
         sizes="(max-width: 1080px) 100vw, 1080px"
         width="1080"
         height="768"
-        alt="Photo by Lubomirkin"
+        alt="Project Supportive Image"
         loading="lazy"
       />
     </div>
