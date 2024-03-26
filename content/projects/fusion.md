@@ -1,8 +1,8 @@
 +++
-title = "Fusion"
+title = "Networking Fusion"
 date = 2024-01-07T08:34:14-05:00
 draft = false
-projectName = "Fusion"
+projectName = "Fusion Event"
 projectYear = "2015"
 startYear="September 2015"
 endYear="April 2018"

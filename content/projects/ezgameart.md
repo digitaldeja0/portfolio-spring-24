@@ -1,8 +1,8 @@
 +++
-title = "Game Asset Site"
+title = "Community Asset Site"
 date = 2024-01-07T08:34:14-05:00
 draft = false
-projectName = "Game Assets"
+projectName = "Game Assets Site"
 projectYear = "2024"
 startYear="January 2024"
 endYear="Current"

@@ -2,7 +2,7 @@
 title = "Freelancing"
 date = 2024-01-07T08:34:14-05:00
 draft = false
-projectName = "Hey Deja"
+projectName = "Freelancing"
 projectYear = "2016"
 startYear="January 2016"
 endYear="March 2023"
